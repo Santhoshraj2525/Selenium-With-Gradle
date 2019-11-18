@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [ExcelTest]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.qa.ExtentReportListener.ExtentReporterNG"/>
+  </listeners>
+  <test thread-count="5" name="ExcelDemo(failed)">
+    <classes>
+      <class name="com.qa.crm.test.ContactsPageTest">
+        <methods>
+          <include name="verificationOfHeader"/>
+          <include name="tearDown"/>
+          <include name="verificationOfContactsPresentation"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.qa.crm.test.ContactsPageTest -->
+      <class name="com.qa.crm.test.EntryPageTest">
+        <methods>
+          <include name="loginButtonTest"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.qa.crm.test.EntryPageTest -->
+      <class name="com.qa.crm.test.LoginPageTest">
+        <methods>
+          <include name="loginPageTitleTest"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.qa.crm.test.LoginPageTest -->
+    </classes>
+  </test> <!-- ExcelDemo(failed) -->
+</suite> <!-- Failed suite [ExcelTest] -->

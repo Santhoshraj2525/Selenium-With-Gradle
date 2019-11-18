@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="ExcelTest">
+
+	<listeners>
+		<listener
+			class-name="com.qa.ExtentReportListener.ExtentReporterNG" />
+	</listeners>
+
+	<test name="ExcelDemo">
+
+		<classes>
+			<class name="com.qa.crm.test.EntryPageTest"></class>
+			<class name="com.qa.crm.test.LoginPageTest"></class>
+			<class name="com.qa.crm.test.HomePageTest"></class>
+			<class name="com.qa.crm.test.ContactsPageTest"></class>
+		</classes>
+
+	</test>
+</suite>
