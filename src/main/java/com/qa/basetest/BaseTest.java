@@ -15,8 +15,6 @@ public class BaseTest {
 	
 	public static WebDriver driver;
 	public static Properties prop;
-	public static EventFiringWebDriver e_driver;
-	public static WebEventListener eventlistner;
 	
 	public BaseTest() throws Exception {
 		FileInputStream fis = new FileInputStream("C:\\Users\\hp\\eclipse-workspace\\SeleniumWithGradleFramework\\src\\test\\resources\\com\\qa\\config\\config.properties");
@@ -26,7 +24,7 @@ public class BaseTest {
 	
 	public static void initialization() throws Exception {
 		String browserName = prop.getProperty("browser");
-		if(browserName.equals("chrome")) {
+		if(browserName.equals("Chrome")) {
 			System.setProperty("webdriver.chrome.driver", "C:\\Users\\hp\\eclipse-workspace\\SeleniumWithGradleFramework\\src\\main\\resources\\com\\qa\\drivers\\chromedriver.exe");
 			driver = new ChromeDriver();
 		}else if(browserName.equals("IE")) {
@@ -36,11 +34,6 @@ public class BaseTest {
 			System.setProperty("webdriver.gecko.driver", "C:\\Users\\hp\\eclipse-workspace\\SeleniumWithGradleFramework\\src\\main\\resources\\com\\qa\\drivers\\geckodriver.exe");
 			driver = new FirefoxDriver();
 		}
-		
-		e_driver = new EventFiringWebDriver(driver);
-		eventlistner = new WebEventListener();
-		e_driver.register(eventlistner);
-		driver=e_driver;
 		
 		driver.manage().window().maximize();
 		driver.manage().deleteAllCookies();

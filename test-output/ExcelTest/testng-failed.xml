@@ -6,23 +6,6 @@
   </listeners>
   <test thread-count="5" name="ExcelDemo(failed)">
     <classes>
-      <class name="com.qa.crm.test.ContactsPageTest">
-        <methods>
-          <include name="verificationOfHeader"/>
-          <include name="tearDown"/>
-          <include name="verificationOfContactsPresentation"/>
-          <include name="setUp"/>
-          <include name="validationOfContactsCreation"/>
-        </methods>
-      </class> <!-- com.qa.crm.test.ContactsPageTest -->
-      <class name="com.qa.crm.test.LoginPageTest">
-        <methods>
-          <include name="loginPageTitleTest"/>
-          <include name="loginCRMTest"/>
-          <include name="setUp"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- com.qa.crm.test.LoginPageTest -->
       <class name="com.qa.crm.test.EntryPageTest">
         <methods>
           <include name="entryPageTitleTest"/>
@@ -32,13 +15,6 @@
           <include name="tearDown"/>
         </methods>
       </class> <!-- com.qa.crm.test.EntryPageTest -->
-      <class name="com.qa.crm.test.HomePageTest">
-        <methods>
-          <include name="tearDown"/>
-          <include name="setUp"/>
-          <include name="verificationOfUserID"/>
-        </methods>
-      </class> <!-- com.qa.crm.test.HomePageTest -->
     </classes>
   </test> <!-- ExcelDemo(failed) -->
 </suite> <!-- Failed suite [ExcelTest] -->

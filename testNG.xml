@@ -10,9 +10,6 @@
 
 		<classes>
 			<class name="com.qa.crm.test.EntryPageTest"></class>
-			<class name="com.qa.crm.test.LoginPageTest"></class>
-			<class name="com.qa.crm.test.HomePageTest"></class>
-			<class name="com.qa.crm.test.ContactsPageTest"></class>
 		</classes>
 
 	</test>
