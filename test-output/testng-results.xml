@@ -2,44 +2,44 @@
 <testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2019-12-28T12:37:34Z" name="ExcelTest" finished-at="2019-12-28T12:38:24Z" duration-ms="50283">
+  <suite started-at="2019-12-28T14:19:44Z" name="ExcelTest" finished-at="2019-12-28T14:20:30Z" duration-ms="45688">
     <groups>
     </groups>
-    <test started-at="2019-12-28T12:37:34Z" name="ExcelDemo" finished-at="2019-12-28T12:38:24Z" duration-ms="50283">
+    <test started-at="2019-12-28T14:19:44Z" name="ExcelDemo" finished-at="2019-12-28T14:20:30Z" duration-ms="45688">
       <class name="com.qa.crm.test.EntryPageTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.crm.test.EntryPageTest@71e9ddb4]" started-at="2019-12-28T12:37:34Z" name="setUp" finished-at="2019-12-28T12:37:47Z" duration-ms="12739" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.crm.test.EntryPageTest@71e9ddb4]" started-at="2019-12-28T14:19:44Z" name="setUp" finished-at="2019-12-28T14:19:56Z" duration-ms="11609" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="entryPageTitleTest()[pri:1, instance:com.qa.crm.test.EntryPageTest@71e9ddb4]" started-at="2019-12-28T12:37:47Z" name="entryPageTitleTest" finished-at="2019-12-28T12:37:47Z" duration-ms="204" status="PASS">
+        <test-method signature="entryPageTitleTest()[pri:1, instance:com.qa.crm.test.EntryPageTest@71e9ddb4]" started-at="2019-12-28T14:19:56Z" name="entryPageTitleTest" finished-at="2019-12-28T14:19:56Z" duration-ms="304" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- entryPageTitleTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.crm.test.EntryPageTest@71e9ddb4]" started-at="2019-12-28T12:37:47Z" name="tearDown" finished-at="2019-12-28T12:37:48Z" duration-ms="1428" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.crm.test.EntryPageTest@71e9ddb4]" started-at="2019-12-28T14:19:56Z" name="tearDown" finished-at="2019-12-28T14:19:57Z" duration-ms="687" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.crm.test.EntryPageTest@71e9ddb4]" started-at="2019-12-28T12:37:48Z" name="setUp" finished-at="2019-12-28T12:37:56Z" duration-ms="7476" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.crm.test.EntryPageTest@71e9ddb4]" started-at="2019-12-28T14:19:57Z" name="setUp" finished-at="2019-12-28T14:20:06Z" duration-ms="9493" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="loginButtonTest()[pri:2, instance:com.qa.crm.test.EntryPageTest@71e9ddb4]" started-at="2019-12-28T12:37:56Z" name="loginButtonTest" finished-at="2019-12-28T12:37:56Z" duration-ms="389" status="PASS">
+        <test-method signature="loginButtonTest()[pri:2, instance:com.qa.crm.test.EntryPageTest@71e9ddb4]" started-at="2019-12-28T14:20:06Z" name="loginButtonTest" finished-at="2019-12-28T14:20:07Z" duration-ms="368" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginButtonTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.crm.test.EntryPageTest@71e9ddb4]" started-at="2019-12-28T12:37:56Z" name="tearDown" finished-at="2019-12-28T12:37:57Z" duration-ms="660" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.crm.test.EntryPageTest@71e9ddb4]" started-at="2019-12-28T14:20:07Z" name="tearDown" finished-at="2019-12-28T14:20:08Z" duration-ms="848" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.crm.test.EntryPageTest@71e9ddb4]" started-at="2019-12-28T12:37:57Z" name="setUp" finished-at="2019-12-28T12:38:06Z" duration-ms="9527" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.crm.test.EntryPageTest@71e9ddb4]" started-at="2019-12-28T14:20:08Z" name="setUp" finished-at="2019-12-28T14:20:15Z" duration-ms="7644" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="loginButtonClickTest()[pri:3, instance:com.qa.crm.test.EntryPageTest@71e9ddb4]" started-at="2019-12-28T12:38:06Z" name="loginButtonClickTest" finished-at="2019-12-28T12:38:23Z" duration-ms="16564" status="PASS">
+        <test-method signature="loginButtonClickTest()[pri:3, instance:com.qa.crm.test.EntryPageTest@71e9ddb4]" started-at="2019-12-28T14:20:15Z" name="loginButtonClickTest" finished-at="2019-12-28T14:20:29Z" duration-ms="13941" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginButtonClickTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.crm.test.EntryPageTest@71e9ddb4]" started-at="2019-12-28T12:38:23Z" name="tearDown" finished-at="2019-12-28T12:38:24Z" duration-ms="1256" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.crm.test.EntryPageTest@71e9ddb4]" started-at="2019-12-28T14:20:29Z" name="tearDown" finished-at="2019-12-28T14:20:30Z" duration-ms="734" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
