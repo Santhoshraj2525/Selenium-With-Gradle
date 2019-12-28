@@ -43,7 +43,6 @@
 			</div>
 			<ul id='slide-out' class='side-nav fixed hide-on-med-and-down'>
 				<li class='analysis waves-effect active'><a href='#!' class='test-view' onclick="_updateCurrentStage(0)"><i class='mdi-action-dashboard'></i>Test Details</a></li>
-					<li class='analysis waves-effect'><a href='#!' class='exceptions-view' onclick="_updateCurrentStage(2)"><i class='mdi-action-bug-report'></i>Exceptions</a></li>
 				<li class='analysis waves-effect'>
 					<a href='#!' onclick="_updateCurrentStage(-1)" class='dashboard-view'><i class='mdi-action-track-changes'></i></i>Analysis</a>
 				</li>
@@ -54,7 +53,7 @@
 					<i class='mdi-hardware-desktop-windows'></i>
 				</li>
 				<li>
-					<span class='suite-started-time'>2019-12-26 01:19:25</span>
+					<span class='suite-started-time'>2019-12-28 18:08:26</span>
 				</li>
 				<li>
 					<span>v2.41.1</span>
@@ -84,25 +83,25 @@
 					<div class='col l2 m4 s12'>
 						<div class='card suite-total-time-current'> 
 							<span class='panel-name'>Total Time Taken (Current Run)</span> 
-							<span class='suite-total-time-current-value panel-lead'>0h 0m 1s+94ms</span> 
+							<span class='suite-total-time-current-value panel-lead'>0h 0m 39s+558ms</span> 
 						</div> 
 					</div>
 					<div class='col l2 m4 s12'>
 						<div class='card suite-total-time-overall'> 
 							<span class='panel-name'>Total Time Taken (Overall)</span> 
-							<span class='suite-total-time-overall-value panel-lead'>0h 0m 1s+94ms</span> 
+							<span class='suite-total-time-overall-value panel-lead'>0h 0m 39s+558ms</span> 
 						</div> 
 					</div>
 					<div class='col l2 m4 s6 suite-start-time'>
 						<div class='card accent green-accent'> 
 							<span class='panel-name'>Start</span> 
-							<span class='panel-lead suite-started-time'>2019-12-26 01:19:24</span> 
+							<span class='panel-lead suite-started-time'>2019-12-28 18:07:47</span> 
 						</div> 
 					</div>
 					<div class='col l2 m4 s6 suite-end-time'>
 						<div class='card accent pink-accent'> 
 							<span class='panel-name'>End</span> 
-							<span class='panel-lead suite-ended-time'>2019-12-26 01:19:25</span> 
+							<span class='panel-lead suite-ended-time'>2019-12-28 18:08:26</span> 
 						</div> 
 					</div>
 				</div>
@@ -238,140 +237,17 @@
 						<div class='card-panel no-padding-h no-padding-v no-margin-v'>
 							<div class='wrapper'>
 								<ul id='test-collection' class='test-collection'>
-										<li class='collection-item test displayed active skip ' extentid='67180414-332d-4f1c-9df7-4cf4a6950ded'>
-											<div class='test-head'>
-												<span class='test-name'>entryPageTitleTest </span>
-												<span class='test-status label right outline capitalize skip'>skip</span>
-												<span class='category-assigned hide '></span>
-											</div>
-											<div class='test-body'>
-												<div class='test-info'>
-													<span title='Test started time' alt='Test started time' class='test-started-time label green lighten-1 text-white'>2019-12-26 01:19:24</span>
-													<span title='Test ended time' alt='Test ended time' class='test-ended-time label red lighten-1 text-white'>2019-12-26 01:19:24</span>
-													<span title='Time taken to finish' alt='Time taken to finish' class='test-time-taken label blue-grey lighten-3 text-white'>0h 0m 0s+0ms</span>
-												</div>
-												<div class='test-desc'></div>
-												<div class='test-attributes'>
-												</div>
-												<div class='test-steps'>
-													<table class='bordered table-results'>
-														<thead>
-															<tr>
-																<th>Status</th>
-																<th>Timestamp</th>
-																<th>Details</th>
-															</tr>
-														</thead>
-														<tbody>
-																<tr>
-																	<td class='status skip' title='skip' alt='skip'><i class='mdi-content-redo'></i></td>
-																	<td class='timestamp'>01:19:24</td>
-																	<td class='step-details'><textarea>org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 76
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'THOUFIC', ip: '192.168.31.12', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '11.0.4'
-Driver info: driver.version: ChromeDriver
-remote stacktrace: Backtrace:
-	Ordinal0 [0x00AD7C93+1473683]
-	Ordinal0 [0x00A5ADB1+961969]
-	Ordinal0 [0x009E42E3+475875]
-	Ordinal0 [0x0097F365+62309]
-	Ordinal0 [0x0097BC77+48247]
-	Ordinal0 [0x00999149+168265]
-	Ordinal0 [0x00998D1D+167197]
-	Ordinal0 [0x0099742B+160811]
-	Ordinal0 [0x00980AE6+68326]
-	Ordinal0 [0x00981BF0+72688]
-	Ordinal0 [0x00981B89+72585]
-	Ordinal0 [0x00A74B77+1067895]
-	GetHandleVerifier [0x00B76875+506677]
-	GetHandleVerifier [0x00B76610+506064]
-	GetHandleVerifier [0x00B7D1B8+533624]
-	GetHandleVerifier [0x00B7704A+508682]
-	Ordinal0 [0x00A6C266+1032806]
-	Ordinal0 [0x00A6C0DF+1032415]
-	Ordinal0 [0x00A76A8B+1075851]
-	Ordinal0 [0x00A76BF3+1076211]
-	Ordinal0 [0x00A75BA5+1072037]
-	BaseThreadInitThunk [0x77636A14+36]
-	RtlInitializeExceptionChain [0x77C2AD8F+143]
-	RtlInitializeExceptionChain [0x77C2AD5A+90]
-
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
-	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
-	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
-	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
-	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
-	at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
-	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:127)
-	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:502)
-	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:488)
-	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
-	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
-	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
-	at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:543)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
-	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
-	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)
-	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:168)
-	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
-	at com.qa.basetest.BaseTest.initialization(BaseTest.java:29)
-	at com.qa.crm.test.EntryPageTest.setUp(EntryPageTest.java:23)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
-	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:523)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:648)
-	at org.testng.TestRunner.run(TestRunner.java:505)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-	at org.testng.TestNG.runSuites(TestNG.java:1049)
-	at org.testng.TestNG.run(TestNG.java:1017)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</textarea></td>
-																</tr>
-														</tbody>
-													</table>
-													<ul class='collapsible node-list' data-collapsible='accordion'>
-													</ul>
-												</div>
-											</div>
-										</li>
-										<li class='collection-item test displayed active skip ' extentid='d3541d4d-d731-421e-8327-ded46b2427db'>
+										<li class='collection-item test displayed active pass ' extentid='78501d14-7e1d-4b77-81b5-b8cccebd814a'>
 											<div class='test-head'>
 												<span class='test-name'>loginButtonClickTest </span>
-												<span class='test-status label right outline capitalize skip'>skip</span>
+												<span class='test-status label right outline capitalize pass'>pass</span>
 												<span class='category-assigned hide '></span>
 											</div>
 											<div class='test-body'>
 												<div class='test-info'>
-													<span title='Test started time' alt='Test started time' class='test-started-time label green lighten-1 text-white'>2019-12-26 01:19:24</span>
-													<span title='Test ended time' alt='Test ended time' class='test-ended-time label red lighten-1 text-white'>2019-12-26 01:19:24</span>
-													<span title='Time taken to finish' alt='Time taken to finish' class='test-time-taken label blue-grey lighten-3 text-white'>0h 0m 0s+0ms</span>
+													<span title='Test started time' alt='Test started time' class='test-started-time label green lighten-1 text-white'>2019-12-28 18:08:06</span>
+													<span title='Test ended time' alt='Test ended time' class='test-ended-time label red lighten-1 text-white'>2019-12-28 18:08:23</span>
+													<span title='Time taken to finish' alt='Time taken to finish' class='test-time-taken label blue-grey lighten-3 text-white'>0h 0m 16s+564ms</span>
 												</div>
 												<div class='test-desc'></div>
 												<div class='test-attributes'>
@@ -387,95 +263,9 @@ remote stacktrace: Backtrace:
 														</thead>
 														<tbody>
 																<tr>
-																	<td class='status skip' title='skip' alt='skip'><i class='mdi-content-redo'></i></td>
-																	<td class='timestamp'>01:19:24</td>
-																	<td class='step-details'><textarea>org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 76
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'THOUFIC', ip: '192.168.31.12', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '11.0.4'
-Driver info: driver.version: ChromeDriver
-remote stacktrace: Backtrace:
-	Ordinal0 [0x00AD7C93+1473683]
-	Ordinal0 [0x00A5ADB1+961969]
-	Ordinal0 [0x009E42E3+475875]
-	Ordinal0 [0x0097F365+62309]
-	Ordinal0 [0x0097BC77+48247]
-	Ordinal0 [0x00999149+168265]
-	Ordinal0 [0x00998D1D+167197]
-	Ordinal0 [0x0099742B+160811]
-	Ordinal0 [0x00980AE6+68326]
-	Ordinal0 [0x00981BF0+72688]
-	Ordinal0 [0x00981B89+72585]
-	Ordinal0 [0x00A74B77+1067895]
-	GetHandleVerifier [0x00B76875+506677]
-	GetHandleVerifier [0x00B76610+506064]
-	GetHandleVerifier [0x00B7D1B8+533624]
-	GetHandleVerifier [0x00B7704A+508682]
-	Ordinal0 [0x00A6C266+1032806]
-	Ordinal0 [0x00A6C0DF+1032415]
-	Ordinal0 [0x00A76A8B+1075851]
-	Ordinal0 [0x00A76BF3+1076211]
-	Ordinal0 [0x00A75BA5+1072037]
-	BaseThreadInitThunk [0x77636A14+36]
-	RtlInitializeExceptionChain [0x77C2AD8F+143]
-	RtlInitializeExceptionChain [0x77C2AD5A+90]
-
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
-	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
-	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
-	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
-	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
-	at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
-	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:127)
-	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:502)
-	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:488)
-	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
-	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
-	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
-	at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:543)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
-	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
-	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)
-	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:168)
-	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
-	at com.qa.basetest.BaseTest.initialization(BaseTest.java:29)
-	at com.qa.crm.test.EntryPageTest.setUp(EntryPageTest.java:23)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
-	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:523)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:648)
-	at org.testng.TestRunner.run(TestRunner.java:505)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-	at org.testng.TestNG.runSuites(TestNG.java:1049)
-	at org.testng.TestNG.run(TestNG.java:1017)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</textarea></td>
+																	<td class='status pass' title='pass' alt='pass'><i class='mdi-action-check-circle'></i></td>
+																	<td class='timestamp'>18:08:23</td>
+																	<td class='step-details'>Test passed</td>
 																</tr>
 														</tbody>
 													</table>
@@ -484,17 +274,17 @@ remote stacktrace: Backtrace:
 												</div>
 											</div>
 										</li>
-										<li class='collection-item test displayed active skip ' extentid='82478dbf-e342-4d10-a333-5d412eb1e118'>
+										<li class='collection-item test displayed active pass ' extentid='47ac7461-22e7-42f9-9c73-bdfd94477010'>
 											<div class='test-head'>
 												<span class='test-name'>loginButtonTest </span>
-												<span class='test-status label right outline capitalize skip'>skip</span>
+												<span class='test-status label right outline capitalize pass'>pass</span>
 												<span class='category-assigned hide '></span>
 											</div>
 											<div class='test-body'>
 												<div class='test-info'>
-													<span title='Test started time' alt='Test started time' class='test-started-time label green lighten-1 text-white'>2019-12-26 01:19:24</span>
-													<span title='Test ended time' alt='Test ended time' class='test-ended-time label red lighten-1 text-white'>2019-12-26 01:19:24</span>
-													<span title='Time taken to finish' alt='Time taken to finish' class='test-time-taken label blue-grey lighten-3 text-white'>0h 0m 0s+0ms</span>
+													<span title='Test started time' alt='Test started time' class='test-started-time label green lighten-1 text-white'>2019-12-28 18:07:56</span>
+													<span title='Test ended time' alt='Test ended time' class='test-ended-time label red lighten-1 text-white'>2019-12-28 18:07:56</span>
+													<span title='Time taken to finish' alt='Time taken to finish' class='test-time-taken label blue-grey lighten-3 text-white'>0h 0m 0s+389ms</span>
 												</div>
 												<div class='test-desc'></div>
 												<div class='test-attributes'>
@@ -510,95 +300,46 @@ remote stacktrace: Backtrace:
 														</thead>
 														<tbody>
 																<tr>
-																	<td class='status skip' title='skip' alt='skip'><i class='mdi-content-redo'></i></td>
-																	<td class='timestamp'>01:19:24</td>
-																	<td class='step-details'><textarea>org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 76
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'THOUFIC', ip: '192.168.31.12', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '11.0.4'
-Driver info: driver.version: ChromeDriver
-remote stacktrace: Backtrace:
-	Ordinal0 [0x00AD7C93+1473683]
-	Ordinal0 [0x00A5ADB1+961969]
-	Ordinal0 [0x009E42E3+475875]
-	Ordinal0 [0x0097F365+62309]
-	Ordinal0 [0x0097BC77+48247]
-	Ordinal0 [0x00999149+168265]
-	Ordinal0 [0x00998D1D+167197]
-	Ordinal0 [0x0099742B+160811]
-	Ordinal0 [0x00980AE6+68326]
-	Ordinal0 [0x00981BF0+72688]
-	Ordinal0 [0x00981B89+72585]
-	Ordinal0 [0x00A74B77+1067895]
-	GetHandleVerifier [0x00B76875+506677]
-	GetHandleVerifier [0x00B76610+506064]
-	GetHandleVerifier [0x00B7D1B8+533624]
-	GetHandleVerifier [0x00B7704A+508682]
-	Ordinal0 [0x00A6C266+1032806]
-	Ordinal0 [0x00A6C0DF+1032415]
-	Ordinal0 [0x00A76A8B+1075851]
-	Ordinal0 [0x00A76BF3+1076211]
-	Ordinal0 [0x00A75BA5+1072037]
-	BaseThreadInitThunk [0x77636A14+36]
-	RtlInitializeExceptionChain [0x77C2AD8F+143]
-	RtlInitializeExceptionChain [0x77C2AD5A+90]
-
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
-	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
-	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
-	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
-	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
-	at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
-	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:127)
-	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:502)
-	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:488)
-	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
-	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
-	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
-	at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:543)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
-	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
-	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)
-	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:168)
-	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
-	at com.qa.basetest.BaseTest.initialization(BaseTest.java:29)
-	at com.qa.crm.test.EntryPageTest.setUp(EntryPageTest.java:23)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
-	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:523)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:648)
-	at org.testng.TestRunner.run(TestRunner.java:505)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-	at org.testng.TestNG.runSuites(TestNG.java:1049)
-	at org.testng.TestNG.run(TestNG.java:1017)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</textarea></td>
+																	<td class='status pass' title='pass' alt='pass'><i class='mdi-action-check-circle'></i></td>
+																	<td class='timestamp'>18:07:56</td>
+																	<td class='step-details'>Test passed</td>
+																</tr>
+														</tbody>
+													</table>
+													<ul class='collapsible node-list' data-collapsible='accordion'>
+													</ul>
+												</div>
+											</div>
+										</li>
+										<li class='collection-item test displayed active pass ' extentid='66ec7bc6-0e06-401d-a7f2-374e1f825cb3'>
+											<div class='test-head'>
+												<span class='test-name'>entryPageTitleTest </span>
+												<span class='test-status label right outline capitalize pass'>pass</span>
+												<span class='category-assigned hide '></span>
+											</div>
+											<div class='test-body'>
+												<div class='test-info'>
+													<span title='Test started time' alt='Test started time' class='test-started-time label green lighten-1 text-white'>2019-12-28 18:07:47</span>
+													<span title='Test ended time' alt='Test ended time' class='test-ended-time label red lighten-1 text-white'>2019-12-28 18:07:47</span>
+													<span title='Time taken to finish' alt='Time taken to finish' class='test-time-taken label blue-grey lighten-3 text-white'>0h 0m 0s+204ms</span>
+												</div>
+												<div class='test-desc'></div>
+												<div class='test-attributes'>
+												</div>
+												<div class='test-steps'>
+													<table class='bordered table-results'>
+														<thead>
+															<tr>
+																<th>Status</th>
+																<th>Timestamp</th>
+																<th>Details</th>
+															</tr>
+														</thead>
+														<tbody>
+																<tr>
+																	<td class='status pass' title='pass' alt='pass'><i class='mdi-action-check-circle'></i></td>
+																	<td class='timestamp'>18:07:47</td>
+																	<td class='step-details'>Test passed</td>
 																</tr>
 														</tbody>
 													</table>
@@ -638,336 +379,6 @@ remote stacktrace: Backtrace:
 			<!-- /categories -->
 			
 			<!-- exceptions -->
-				<div id='exceptions-view' class='row _addedTable hide'>
-					<div class='col _addedCell1'>
-						<div class='contents'>
-							<div class='card-panel heading'>
-								<h5>Defects</h5>
-							</div>
-							<div class='card-panel filters'>
-								<div class='search' alt='Search tests' title='Search tests'>
-									<div class='input-field left'>
-										<input id='searchTests' type='text' class='validate' placeholder='Search tests...'>
-									</div>
-									<a href="#" class='btn-floating btn-small waves-effect waves-light blue lighten-1'>
-										<i class='mdi-action-search'></i>
-									</a>
-								</div>
-							</div>
-							<div class='card-panel no-padding-h no-padding-v'>
-								<div class='wrapper'>
-									<ul id='exception-collection' class='exception-collection'>
-											<li class='exception-item displayed'>
-												<div class='exception-head'>
-													<span class='exception-name'>org.openqa.selenium.SessionNotCreatedException</span>
-												</div>
-												<div class='exception-test-count'>
-													<span class='fail label'>3</span>
-												</div>
-												<div class='exception-body'>
-													<div class='exception-tests'>
-														<table class='bordered'>
-															<thead>
-																<tr>
-																	<th>RunDate</th>
-																	<th>Test Name</th>
-																	<th>Exception</th>
-																</tr>
-															</thead>
-															<tbody>
-                                                                   <tr class='skip'>
-                                                                       <td>2019-12-26 01:19:24</td>
-                                                                       <td><span class='exception-link linked' extentid='67180414-332d-4f1c-9df7-4cf4a6950ded'>entryPageTitleTest</span></td>
-                                                                       <td><pre class='exception-message'>org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 76
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'THOUFIC', ip: '192.168.31.12', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '11.0.4'
-Driver info: driver.version: ChromeDriver
-remote stacktrace: Backtrace:
-	Ordinal0 [0x00AD7C93+1473683]
-	Ordinal0 [0x00A5ADB1+961969]
-	Ordinal0 [0x009E42E3+475875]
-	Ordinal0 [0x0097F365+62309]
-	Ordinal0 [0x0097BC77+48247]
-	Ordinal0 [0x00999149+168265]
-	Ordinal0 [0x00998D1D+167197]
-	Ordinal0 [0x0099742B+160811]
-	Ordinal0 [0x00980AE6+68326]
-	Ordinal0 [0x00981BF0+72688]
-	Ordinal0 [0x00981B89+72585]
-	Ordinal0 [0x00A74B77+1067895]
-	GetHandleVerifier [0x00B76875+506677]
-	GetHandleVerifier [0x00B76610+506064]
-	GetHandleVerifier [0x00B7D1B8+533624]
-	GetHandleVerifier [0x00B7704A+508682]
-	Ordinal0 [0x00A6C266+1032806]
-	Ordinal0 [0x00A6C0DF+1032415]
-	Ordinal0 [0x00A76A8B+1075851]
-	Ordinal0 [0x00A76BF3+1076211]
-	Ordinal0 [0x00A75BA5+1072037]
-	BaseThreadInitThunk [0x77636A14+36]
-	RtlInitializeExceptionChain [0x77C2AD8F+143]
-	RtlInitializeExceptionChain [0x77C2AD5A+90]
-
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
-	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
-	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
-	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
-	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
-	at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
-	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:127)
-	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:502)
-	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:488)
-	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
-	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
-	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
-	at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:543)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
-	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
-	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)
-	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:168)
-	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
-	at com.qa.basetest.BaseTest.initialization(BaseTest.java:29)
-	at com.qa.crm.test.EntryPageTest.setUp(EntryPageTest.java:23)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
-	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:523)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:648)
-	at org.testng.TestRunner.run(TestRunner.java:505)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-	at org.testng.TestNG.runSuites(TestNG.java:1049)
-	at org.testng.TestNG.run(TestNG.java:1017)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></td>
-                                                                   </tr>
-                                                                   <tr class='skip'>
-                                                                       <td>2019-12-26 01:19:24</td>
-                                                                       <td><span class='exception-link linked' extentid='d3541d4d-d731-421e-8327-ded46b2427db'>loginButtonClickTest</span></td>
-                                                                       <td><pre class='exception-message'>org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 76
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'THOUFIC', ip: '192.168.31.12', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '11.0.4'
-Driver info: driver.version: ChromeDriver
-remote stacktrace: Backtrace:
-	Ordinal0 [0x00AD7C93+1473683]
-	Ordinal0 [0x00A5ADB1+961969]
-	Ordinal0 [0x009E42E3+475875]
-	Ordinal0 [0x0097F365+62309]
-	Ordinal0 [0x0097BC77+48247]
-	Ordinal0 [0x00999149+168265]
-	Ordinal0 [0x00998D1D+167197]
-	Ordinal0 [0x0099742B+160811]
-	Ordinal0 [0x00980AE6+68326]
-	Ordinal0 [0x00981BF0+72688]
-	Ordinal0 [0x00981B89+72585]
-	Ordinal0 [0x00A74B77+1067895]
-	GetHandleVerifier [0x00B76875+506677]
-	GetHandleVerifier [0x00B76610+506064]
-	GetHandleVerifier [0x00B7D1B8+533624]
-	GetHandleVerifier [0x00B7704A+508682]
-	Ordinal0 [0x00A6C266+1032806]
-	Ordinal0 [0x00A6C0DF+1032415]
-	Ordinal0 [0x00A76A8B+1075851]
-	Ordinal0 [0x00A76BF3+1076211]
-	Ordinal0 [0x00A75BA5+1072037]
-	BaseThreadInitThunk [0x77636A14+36]
-	RtlInitializeExceptionChain [0x77C2AD8F+143]
-	RtlInitializeExceptionChain [0x77C2AD5A+90]
-
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
-	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
-	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
-	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
-	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
-	at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
-	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:127)
-	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:502)
-	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:488)
-	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
-	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
-	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
-	at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:543)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
-	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
-	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)
-	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:168)
-	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
-	at com.qa.basetest.BaseTest.initialization(BaseTest.java:29)
-	at com.qa.crm.test.EntryPageTest.setUp(EntryPageTest.java:23)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
-	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:523)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:648)
-	at org.testng.TestRunner.run(TestRunner.java:505)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-	at org.testng.TestNG.runSuites(TestNG.java:1049)
-	at org.testng.TestNG.run(TestNG.java:1017)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></td>
-                                                                   </tr>
-                                                                   <tr class='skip'>
-                                                                       <td>2019-12-26 01:19:24</td>
-                                                                       <td><span class='exception-link linked' extentid='82478dbf-e342-4d10-a333-5d412eb1e118'>loginButtonTest</span></td>
-                                                                       <td><pre class='exception-message'>org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 76
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'THOUFIC', ip: '192.168.31.12', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '11.0.4'
-Driver info: driver.version: ChromeDriver
-remote stacktrace: Backtrace:
-	Ordinal0 [0x00AD7C93+1473683]
-	Ordinal0 [0x00A5ADB1+961969]
-	Ordinal0 [0x009E42E3+475875]
-	Ordinal0 [0x0097F365+62309]
-	Ordinal0 [0x0097BC77+48247]
-	Ordinal0 [0x00999149+168265]
-	Ordinal0 [0x00998D1D+167197]
-	Ordinal0 [0x0099742B+160811]
-	Ordinal0 [0x00980AE6+68326]
-	Ordinal0 [0x00981BF0+72688]
-	Ordinal0 [0x00981B89+72585]
-	Ordinal0 [0x00A74B77+1067895]
-	GetHandleVerifier [0x00B76875+506677]
-	GetHandleVerifier [0x00B76610+506064]
-	GetHandleVerifier [0x00B7D1B8+533624]
-	GetHandleVerifier [0x00B7704A+508682]
-	Ordinal0 [0x00A6C266+1032806]
-	Ordinal0 [0x00A6C0DF+1032415]
-	Ordinal0 [0x00A76A8B+1075851]
-	Ordinal0 [0x00A76BF3+1076211]
-	Ordinal0 [0x00A75BA5+1072037]
-	BaseThreadInitThunk [0x77636A14+36]
-	RtlInitializeExceptionChain [0x77C2AD8F+143]
-	RtlInitializeExceptionChain [0x77C2AD5A+90]
-
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
-	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
-	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
-	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
-	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
-	at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
-	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:127)
-	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:502)
-	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:488)
-	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
-	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
-	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
-	at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:543)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
-	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
-	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)
-	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:168)
-	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
-	at com.qa.basetest.BaseTest.initialization(BaseTest.java:29)
-	at com.qa.crm.test.EntryPageTest.setUp(EntryPageTest.java:23)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
-	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:523)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:648)
-	at org.testng.TestRunner.run(TestRunner.java:505)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-	at org.testng.TestNG.runSuites(TestNG.java:1049)
-	at org.testng.TestNG.run(TestNG.java:1017)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></td>
-                                                                   </tr>
-                                                            </tbody>
-														</table>
-													</div>
-												</div> 
-											</li>
-									</ul>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div id='exception-details-wrapper' class='col _addedCell2'>
-						<div class='contents'>
-							<div class='card-panel details-view'>
-								<h5 class='exception-name'></h5>
-								<div class='exception-container'>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
 			<!-- /exceptions -->
 			
 			<!-- testrunner logs -->

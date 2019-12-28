@@ -25,7 +25,7 @@ public class BaseTest {
 	public static void initialization() throws Exception {
 		String browserName = prop.getProperty("browser");
 		if(browserName.equals("Chrome")) {
-			System.setProperty("webdriver.chrome.driver", "C:\\Users\\hp\\eclipse-workspace\\SeleniumWithGradleFramework\\src\\main\\resources\\com\\qa\\drivers\\chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver", "C:\\Users\\hp\\eclipse-workspace\\SeleniumWithGradleFramework\\src\\main\\resources\\com\\qa\\drivers\\chromedriver_win32 (2)\\chromedriver.exe");
 			driver = new ChromeDriver();
 		}else if(browserName.equals("IE")) {
 			System.setProperty("webdriver.ie.driver", "C:\\Users\\hp\\eclipse-workspace\\SeleniumWithGradleFramework\\src\\main\\resources\\com\\qa\\drivers\\IEDriverServer.exe");

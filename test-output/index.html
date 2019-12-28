@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-ExcelTest" class="navigator-link">
-              <span class="suite-name border-skipped">ExcelTest</span>
+              <span class="suite-name border-passed">ExcelTest</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -91,31 +91,31 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">3 methods,  3 skipped,  </span>
+                    <span class="method-stats">3 methods,   3 passed</span>
                   </li>
                   <li>
-                    <span class="method-list-title skipped">Skipped methods</span>
-                    <span class="show-or-hide-methods skipped">
-                      <a href="#" panel-name="suite-ExcelTest" class="hide-methods skipped suite-ExcelTest"> (hide)</a> <!-- hide-methods skipped suite-ExcelTest -->
-                      <a href="#" panel-name="suite-ExcelTest" class="show-methods skipped suite-ExcelTest"> (show)</a> <!-- show-methods skipped suite-ExcelTest -->
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-ExcelTest" class="hide-methods passed suite-ExcelTest"> (hide)</a> <!-- hide-methods passed suite-ExcelTest -->
+                      <a href="#" panel-name="suite-ExcelTest" class="show-methods passed suite-ExcelTest"> (show)</a> <!-- show-methods passed suite-ExcelTest -->
                     </span>
-                    <div class="method-list-content skipped suite-ExcelTest">
+                    <div class="method-list-content passed suite-ExcelTest">
                       <span>
-                        <img src="skipped.png" width="3%"/>
+                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-ExcelTest" title="com.qa.crm.test.EntryPageTest" class="method navigator-link" hash-for-method="entryPageTitleTest">entryPageTitleTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img src="skipped.png" width="3%"/>
+                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-ExcelTest" title="com.qa.crm.test.EntryPageTest" class="method navigator-link" hash-for-method="loginButtonClickTest">loginButtonClickTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img src="skipped.png" width="3%"/>
+                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-ExcelTest" title="com.qa.crm.test.EntryPageTest" class="method navigator-link" hash-for-method="loginButtonTest">loginButtonTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                    </div> <!-- method-list-content skipped suite-ExcelTest -->
+                    </div> <!-- method-list-content passed suite-ExcelTest -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -127,9 +127,9 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-ExcelTest" class="panel ExcelTest">
-          <div class="suite-ExcelTest-class-skipped">
+          <div class="suite-ExcelTest-class-passed">
             <div class="main-panel-header rounded-window-top">
-              <img src="skipped.png"/>
+              <img src="passed.png"/>
               <span class="class-name">com.qa.crm.test.EntryPageTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -138,62 +138,6 @@
                   <a name="entryPageTitleTest">
                   </a> <!-- entryPageTitleTest -->
                   <span class="method-name">entryPageTitleTest</span>
-                  <div class="stack-trace">org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 76
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;THOUFIC&apos;, ip: &apos;192.168.31.12&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;11.0.4&apos;
-Driver info: driver.version: ChromeDriver
-remote stacktrace: Backtrace:
-	Ordinal0 [0x00AD7C93+1473683]
-	Ordinal0 [0x00A5ADB1+961969]
-	Ordinal0 [0x009E42E3+475875]
-	Ordinal0 [0x0097F365+62309]
-	Ordinal0 [0x0097BC77+48247]
-	Ordinal0 [0x00999149+168265]
-	Ordinal0 [0x00998D1D+167197]
-	Ordinal0 [0x0099742B+160811]
-	Ordinal0 [0x00980AE6+68326]
-	Ordinal0 [0x00981BF0+72688]
-	Ordinal0 [0x00981B89+72585]
-	Ordinal0 [0x00A74B77+1067895]
-	GetHandleVerifier [0x00B76875+506677]
-	GetHandleVerifier [0x00B76610+506064]
-	GetHandleVerifier [0x00B7D1B8+533624]
-	GetHandleVerifier [0x00B7704A+508682]
-	Ordinal0 [0x00A6C266+1032806]
-	Ordinal0 [0x00A6C0DF+1032415]
-	Ordinal0 [0x00A76A8B+1075851]
-	Ordinal0 [0x00A76BF3+1076211]
-	Ordinal0 [0x00A75BA5+1072037]
-	BaseThreadInitThunk [0x77636A14+36]
-	RtlInitializeExceptionChain [0x77C2AD8F+143]
-	RtlInitializeExceptionChain [0x77C2AD5A+90]
-
-	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
-	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
-	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
-	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
-	at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
-	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:127)
-	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:502)
-	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:488)
-	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
-	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
-	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
-	at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:543)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:168)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
-	at com.qa.basetest.BaseTest.initialization(BaseTest.java:29)
-	at com.qa.crm.test.EntryPageTest.setUp(EntryPageTest.java:23)
-... Removed 32 stack frames
-</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -201,62 +145,6 @@ remote stacktrace: Backtrace:
                   <a name="loginButtonClickTest">
                   </a> <!-- loginButtonClickTest -->
                   <span class="method-name">loginButtonClickTest</span>
-                  <div class="stack-trace">org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 76
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;THOUFIC&apos;, ip: &apos;192.168.31.12&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;11.0.4&apos;
-Driver info: driver.version: ChromeDriver
-remote stacktrace: Backtrace:
-	Ordinal0 [0x00AD7C93+1473683]
-	Ordinal0 [0x00A5ADB1+961969]
-	Ordinal0 [0x009E42E3+475875]
-	Ordinal0 [0x0097F365+62309]
-	Ordinal0 [0x0097BC77+48247]
-	Ordinal0 [0x00999149+168265]
-	Ordinal0 [0x00998D1D+167197]
-	Ordinal0 [0x0099742B+160811]
-	Ordinal0 [0x00980AE6+68326]
-	Ordinal0 [0x00981BF0+72688]
-	Ordinal0 [0x00981B89+72585]
-	Ordinal0 [0x00A74B77+1067895]
-	GetHandleVerifier [0x00B76875+506677]
-	GetHandleVerifier [0x00B76610+506064]
-	GetHandleVerifier [0x00B7D1B8+533624]
-	GetHandleVerifier [0x00B7704A+508682]
-	Ordinal0 [0x00A6C266+1032806]
-	Ordinal0 [0x00A6C0DF+1032415]
-	Ordinal0 [0x00A76A8B+1075851]
-	Ordinal0 [0x00A76BF3+1076211]
-	Ordinal0 [0x00A75BA5+1072037]
-	BaseThreadInitThunk [0x77636A14+36]
-	RtlInitializeExceptionChain [0x77C2AD8F+143]
-	RtlInitializeExceptionChain [0x77C2AD5A+90]
-
-	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
-	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
-	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
-	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
-	at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
-	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:127)
-	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:502)
-	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:488)
-	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
-	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
-	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
-	at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:543)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:168)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
-	at com.qa.basetest.BaseTest.initialization(BaseTest.java:29)
-	at com.qa.crm.test.EntryPageTest.setUp(EntryPageTest.java:23)
-... Removed 32 stack frames
-</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -264,66 +152,10 @@ remote stacktrace: Backtrace:
                   <a name="loginButtonTest">
                   </a> <!-- loginButtonTest -->
                   <span class="method-name">loginButtonTest</span>
-                  <div class="stack-trace">org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 76
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;THOUFIC&apos;, ip: &apos;192.168.31.12&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;11.0.4&apos;
-Driver info: driver.version: ChromeDriver
-remote stacktrace: Backtrace:
-	Ordinal0 [0x00AD7C93+1473683]
-	Ordinal0 [0x00A5ADB1+961969]
-	Ordinal0 [0x009E42E3+475875]
-	Ordinal0 [0x0097F365+62309]
-	Ordinal0 [0x0097BC77+48247]
-	Ordinal0 [0x00999149+168265]
-	Ordinal0 [0x00998D1D+167197]
-	Ordinal0 [0x0099742B+160811]
-	Ordinal0 [0x00980AE6+68326]
-	Ordinal0 [0x00981BF0+72688]
-	Ordinal0 [0x00981B89+72585]
-	Ordinal0 [0x00A74B77+1067895]
-	GetHandleVerifier [0x00B76875+506677]
-	GetHandleVerifier [0x00B76610+506064]
-	GetHandleVerifier [0x00B7D1B8+533624]
-	GetHandleVerifier [0x00B7704A+508682]
-	Ordinal0 [0x00A6C266+1032806]
-	Ordinal0 [0x00A6C0DF+1032415]
-	Ordinal0 [0x00A76A8B+1075851]
-	Ordinal0 [0x00A76BF3+1076211]
-	Ordinal0 [0x00A75BA5+1072037]
-	BaseThreadInitThunk [0x77636A14+36]
-	RtlInitializeExceptionChain [0x77C2AD8F+143]
-	RtlInitializeExceptionChain [0x77C2AD5A+90]
-
-	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
-	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
-	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
-	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
-	at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
-	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:127)
-	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:502)
-	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:488)
-	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
-	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
-	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
-	at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:543)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:168)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
-	at com.qa.basetest.BaseTest.initialization(BaseTest.java:29)
-	at com.qa.crm.test.EntryPageTest.setUp(EntryPageTest.java:23)
-... Removed 32 stack frames
-</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-ExcelTest-class-skipped -->
+          </div> <!-- suite-ExcelTest-class-passed -->
         </div> <!-- panel ExcelTest -->
         <div panel-name="test-xml-ExcelTest" class="panel">
           <div class="main-panel-header rounded-window-top">
@@ -381,22 +213,22 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(3);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'entryPageTitleTest')
+data.setCell(0, 1, 'loginButtonClickTest')
 data.setCell(0, 2, 'com.qa.crm.test.EntryPageTest')
-data.setCell(0, 3, 0);
+data.setCell(0, 3, 16564);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'loginButtonClickTest')
+data.setCell(1, 1, 'loginButtonTest')
 data.setCell(1, 2, 'com.qa.crm.test.EntryPageTest')
-data.setCell(1, 3, 0);
+data.setCell(1, 3, 389);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'loginButtonTest')
+data.setCell(2, 1, 'entryPageTitleTest')
 data.setCell(2, 2, 'com.qa.crm.test.EntryPageTest')
-data.setCell(2, 3, 0);
+data.setCell(2, 3, 204);
 window.suiteTableData['ExcelTest']= { tableData: data, tableDiv: 'times-div-ExcelTest'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 0 ms</span>
+              <span class="suite-total-time">Total running time: 17 seconds</span>
               <div id="times-div-ExcelTest">
               </div> <!-- times-div-ExcelTest -->
             </div> <!-- times-div -->
@@ -423,24 +255,42 @@ return data;
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
               <div class="chronological-class-name">com.qa.crm.test.EntryPageTest</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">entryPageTitleTest</span>
-                <span class="method-start">0 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">loginButtonTest</span>
-                <span class="method-start">0 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">loginButtonClickTest</span>
-                <span class="method-start">0 ms</span>
-              </div> <!-- test-method -->
               <div class="configuration-method before">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">setUp</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">entryPageTitleTest</span>
+                <span class="method-start">12739 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">12947 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">14383 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginButtonTest</span>
+                <span class="method-start">21859 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">22248 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">22908 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginButtonClickTest</span>
+                <span class="method-start">32435 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">48999 ms</span>
+              </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->
